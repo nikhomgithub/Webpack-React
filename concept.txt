@@ -1,0 +1,31 @@
+Webpack-basic-0
+have html+css+js
+when we want to opent we compy file path 
+and opent in chrome
+
+Webpack-basic-1
+have html+css+js(bundle.js)
+we need to link bundle.js with index.html
+we use webpack.config.js and $webpack -p as production 
+to create bundle.js 
+How ever we did not link it with css while webpack 
+and did not link manually with index.html
+so there is no css
+
+webpack-academind
+have 2 mode webpack:build & webpack-dev-server
+webpack:build
+need to import all css at app.js
+need to put cssloader in webpack.config.js
+it will create dist/bundle.css in this folder
+webpack-dev-server
+same as webpack:build except location of bundle
+it will create bundles.css internal module to run
+
+webpack-react
+this is the basic react boiler plate (without css)
+
+webpack-react-css
+this is the basic react boiler plate with css
+
+

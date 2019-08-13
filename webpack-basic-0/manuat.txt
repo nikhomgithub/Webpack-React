@@ -1,0 +1,4 @@
+use this address in chrome
+index.html+js will display in chrome interactively 
+
+file:///home/nikhom/HomeWork2/webpack/webpack-basic-before/index.html

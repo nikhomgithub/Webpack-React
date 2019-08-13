@@ -1,0 +1,51 @@
+npm run build
+localhost:8080
+
+npm run build:prod
+liveserver at index.html
+
+
+https://github.com/mschwarzmueller/yt-webpack2-basics
+
+original app from github above which have following files 
+
+html:index.html
+js:app.js,dom-loader.js
+css:main.css,input-elements.css
+
+webpack > will budle all file into bundles.js
+
+npm init
+
+@package.json
+sudo npm install --save-dev webpack-dev-server
+
+"scripts":
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
+
+next try to link all js file with import,export
+index.html < app.js < dom-loader.js
+
+@index.html
+<script src="dist/bundle.js"></script>
+
+@app.js
+import {secretButton,secretParagraph} from './dom-loader';
+
+@dom-loader.js
+export var secretButton
+export var secretParagraph
+
+
+Webpack config
+Entry
+Module Loaders
+Plugins
+Output
+
+create 
+webpack.config.js
+
+
+
